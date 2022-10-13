@@ -11,7 +11,16 @@ export default function App() {
       <main>
         <Dictionary defaultKeyword="missile" />
       </main>
-      <footer className="App-footer">Coded by Inna Yeromenko</footer>
+      <footer className="App-footer">
+        Coded by Inna Yeromenko and is{" "}
+        <a href="https://github.com/Inna-Yeromenko/dictionary-project-final">
+          open-sourced on Github
+        </a>{" "}
+        and{" "}
+        <a href="https://lambent-longma-284093.netlify.app/">
+          hosted on Netlify
+        </a>
+      </footer>
     </div>
   );
 }
